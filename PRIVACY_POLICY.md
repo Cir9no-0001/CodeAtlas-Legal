@@ -1,46 +1,34 @@
 # Privacy Policy
 
-**Last updated:** 08/20/2026
+**Last updated: November 2026**
 
-## What We Collect
+CodeAtlas Extension ("the extension") is a personal open-source project by Stanley Chen. This policy explains what data the extension handles.
 
-CodeAtlas collects and stores the following, locally on your device via
-Chrome's storage APIs:
+## What the extension accesses
 
-- A GitHub personal access token (PAT) you provide
-- Your GitHub username and selected repository
-- A reference to your LeetCode session cookie, used only to read your
-  submission history from leetcode.com
-- Sync run history (timestamps, status, logs) for the Log tab
+- **Your LeetCode session cookie (`LEETCODE_SESSION`)**, read from your browser when you press sync.
+- **A GitHub personal access token that you provide**, stored in your browser's local extension storage (`chrome.storage.local`).
+- **Basic extension settings**, such as the repository you selected and your sync log, stored in `chrome.storage.local`.
 
-## How It's Stored
+## What happens to it
 
-All of the above is stored using `chrome.storage.local` and remains on
-your device. [IF TRUE: CodeAtlas does not transmit your GitHub token or
-LeetCode session data to any CodeAtlas-owned server.] [UPDATE THIS
-SECTION IMMEDIATELY WHEN BACKEND IS INTRODUCED]
+- The LeetCode cookie is encrypted inside your browser using your repository's public key, then written as a GitHub Actions secret to **your own** GitHub repository. It is sent only to GitHub's API (`api.github.com`) and nowhere else.
+- Your GitHub token is used only to call GitHub's API on your behalf.
+- The extension has **no CodeAtlas server**. Nothing is sent to the developer, and there are no analytics, advertising or tracking tools.
+- Data stored in the extension stays on your device until you remove the extension or clear its data.
 
-## Third Parties
+## Your control
 
-CodeAtlas communicates directly with:
+You can revoke your GitHub token at any time at github.com/settings/tokens, delete the `LEETCODE_SESSION` secret from your repository's settings, or uninstall the extension to remove all locally stored data. Logging out of LeetCode also invalidates the cookie.
 
-- GitHub's API, using the token you provide
-- leetcode.com, to check your session cookie
+## Third parties
 
-We do not sell or share your data with any other third party.
-
-## Your Rights
-
-You may delete all locally stored CodeAtlas data at any time by
-[removing the extension / using the Clear Log button / revoking your
-GitHub token]. [If you serve EU or California users, add explicit
-GDPR/CCPA access, deletion, and portability rights here.]
-
-## Data Breach Notice
-
-In the event of a security incident affecting user data, we will notify
-affected users within 365 days.
+Your data is processed by GitHub when you sync, under GitHub's own privacy statement. The extension is not affiliated with or endorsed by LeetCode or GitHub.
 
 ## Contact
 
-Questions about this policy: [INSERT FUTURE BUSINESS EMAIL HERE]
+Questions: stanleycworkmail@gmail.com
+
+## Changes
+
+If this policy changes, the updated version and date will be published in this repository.

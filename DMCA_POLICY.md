@@ -2,16 +2,15 @@
 
 **Last updated:** 08/20/2026
 
-CodeAtlas syncs code you submit to LeetCode into repositories you
-control. You retain full ownership of any code you write and sync.
+CodeAtlas Extension does not host, store or distribute user-generated content. It only helps a user move their own LeetCode session cookie into their own GitHub repository, and any solutions that end up in a repository are created and controlled by that user.
 
-If you believe content associated with CodeAtlas infringes your
-copyright, contact [INSERT FUTURE BUSINESS EMAIL HERE] with:
+The extension is not affiliated with LeetCode or GitHub. "LeetCode" and "GitHub" are trademarks of their respective owners.
 
-- A description of the copyrighted work
-- The location of the allegedly infringing material
-- Your contact information
-- A statement of good-faith belief that the use is unauthorized
-- A statement, under penalty of perjury, that the notice is accurate
+If you believe material in this repository infringes your copyright, please contact stanleycworkmail@gmail.com with:
 
-We will respond to valid notices in accordance with applicable law.
+1. A description of the work you believe is infringed.
+2. The location (URL or file path) of the material in this repository.
+3. Your name and contact information.
+4. A statement that you have a good-faith belief the use is not authorized.
+
+I will review requests promptly and remove material where appropriate.

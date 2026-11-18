@@ -1,6 +1,6 @@
 # Copyright / DMCA Policy
 
-**Last updated:** 08/20/2026
+**Last updated: November 2026**
 
 CodeAtlas Extension does not host, store or distribute user-generated content. It only helps a user move their own LeetCode session cookie into their own GitHub repository, and any solutions that end up in a repository are created and controlled by that user.
 

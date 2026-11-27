@@ -2,7 +2,7 @@
 
 **Last updated: November 2026**
 
-CodeAtlas Extension ("the extension") is a personal open-source project by Stanley Chen. This policy explains what data the extension handles.
+CodeAtlas Extension ("the extension") is a personal, source-available project by Stanley Chen. The source code is publicly viewable but not open source; see the LICENSE file in the repository for permitted use.
 
 ## What the extension accesses
 
